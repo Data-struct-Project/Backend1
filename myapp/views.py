@@ -4,11 +4,18 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def test(request):
-    return HttpResponse("HELLO")
+def home(request):
+    return render(request,'home.html')
 
-def index(request):
-    context ={
-        'var1' : 'hello'
-        }
-    return render(request,'home.html',context)
+def howto(request):
+    return render(request,'howto.html')
+
+def contact(request):
+    return render(request,'contact.html')
+
+def buy(request):
+    return render(request,'buy.html')
+
+
+
+
