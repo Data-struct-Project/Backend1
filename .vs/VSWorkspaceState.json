@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\myapp",
+    "\\myapp\\migrations",
     "\\myapp\\static",
     "\\myapp\\templates",
     "\\mysite"
   ],
-  "SelectedNode": "\\myapp\\templates\\home.html",
+  "SelectedNode": "\\myapp\\models.py",
   "PreviewInSolutionExplorer": false
 }
