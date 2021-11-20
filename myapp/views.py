@@ -16,6 +16,15 @@ def contact(request):
 def buy(request):
     return render(request,'buy.html')
 
+def payment(request):
+    return render(request,'payment.html')
+
+def sitzone(request):
+    return render(request,'sitzone.html')
+
+def standzone(request):
+    return render(request,'standzone.html')
+
 
 
 

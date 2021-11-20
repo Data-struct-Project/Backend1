@@ -24,6 +24,9 @@ urlpatterns = [
     path('howto', views.howto),
     path('contact', views.contact),
     path('buy', views.buy),
+    path('payment', views.payment),
+    path('sitzone', views.sitzone),
+    path('standzone', views.standzone),
 
 
 ]

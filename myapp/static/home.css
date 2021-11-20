@@ -1,11 +1,16 @@
 .w3-top {
     background: rgba(0,0,0,0.7);
     font-family: Bahnschrift;
+    font-size: 20px;
+    
+}
+.w3-top b{
+    font-size: 21px;
 }
 .vid-bg {
     position: absolute;
-    right:0;
-    bottom:0;
+    right: 0;
+    bottom: 0;
     min-width: 100%;
     min-height: 100%;
 }
@@ -61,7 +66,6 @@
 .btn:hover{
     background-color: deepskyblue;
     color:aliceblue;
-
 }
 .btn:hover span {
     padding-right: 19px;

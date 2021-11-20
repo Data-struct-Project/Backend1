@@ -44,7 +44,7 @@
         <input type="radio" name="radio-btn" id="img-1" checked />
         <li class="slide-container">
             <div class="slide">
-                <img src="static/Image_buy/bg3.jpg" />
+                <img src="static/Image_buy/stage.png" />
             </div>
             <div class="nav">
                 <label for="img-6" class="prev">&#x2039;</label>
@@ -98,42 +98,41 @@
     <br>
     <!---------------------------------------------------------------------------------->
     <section class="container">
-
         <!--Zone นั่ง-->
         <div class="card">
             <div class="image">
                 <img src="static/Image_buy/sing2.jpg">
             </div>
             <div class="content">
-                <div class="title">Zone นั่ง</div>
+                <div class="title">Siting Zone</div>
                 <div class="bottom">
-                    <p>Click here for details.</p>
-                    <a href="zoneone.html" button class="bottom">Submit</a>
+                    <!--<p>Click here for details</p>-->
+                    <a href="sitzone" button class="button" style="vertical-align:middle"><span>Submit</span></a>
                 </div>
             </div>
         </div>
-        
+
         <!--Zone ยืน-->
         <div class="card">
             <div class="image">
                 <img src="static/Image_buy/sing.jpg">
             </div>
             <div class="content">
-                <div class="title">Zone ยืน</div>
+                <div class="title">Standing Zone</div>
                 <div class="bottom">
-                    <p>Click here for details.</p>
-                    <a href="zonetwo.html" button class="bottom">Submit</a>
+                    <!--<p>Click here for details</p>-->
+                    <a href="standzone" button class="button" style="vertical-align:middle"><span>Submit</span></a>
                 </div>
             </div>
         </div>
 
         <script>
-            $('.card').hover(function(){
-                if($(this).hasClass("active")){
-                $('.card .bottom').slideUp(function(){
-                    $('.card').removeClass("active");
-                });  
-                }else{
+            $('.card').hover(function () {
+                if ($(this).hasClass("active")) {
+                    $('.card .bottom').slideUp(function () {
+                        $('.card').removeClass("active");
+                    });
+                } else {
                     $('.card').addClass("active");
                     $('.card .bottom').stop().slideDown()
                 }
@@ -143,6 +142,5 @@
     
     
    
-
 </body>
 </html>
